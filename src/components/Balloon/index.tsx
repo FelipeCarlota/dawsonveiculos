@@ -1,4 +1,4 @@
-import Balloon from '../../assets/img/balao-depoimentos.png'
+import Balloon from '../../img/balao-depoimentos.png'
 
 export interface BalloonTestimonyProps {
   photo?: string;

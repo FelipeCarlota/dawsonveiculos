@@ -1,6 +1,6 @@
 import { Button } from "@mui/material";
-import IconPlayStore from '../../assets/img/google_play_icon.png'
-import IconAppStore from '../../assets/img/icon_apple_branco.png'
+import IconPlayStore from '../../img/google_play_icon.png'
+import IconAppStore from '../../img/icon_apple_branco.png'
 
 interface BtnAppProps {
   android?: boolean;

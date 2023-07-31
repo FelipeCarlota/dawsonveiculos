@@ -1,4 +1,4 @@
-import logo from '../../assets/img/dawson-logo.png'
+import logo from '../../img/dawson-logo.png'
 
 interface LogoProps {
   center?: boolean

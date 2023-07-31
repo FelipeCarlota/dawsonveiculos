@@ -1,4 +1,4 @@
-import Bv from '../../assets/img/parceiro-1.jpg.png'
+import Bv from '../../img/parceiro-1.jpg.png'
 import { TitleSection } from '../Text';
 import { partiners } from './partners';
 

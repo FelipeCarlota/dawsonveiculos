@@ -12,14 +12,14 @@ export const vehicle : VeiculoCardProps[] = [
     vehicleName: "Fiat Argo",
     vehicleInfo: "1.0 Firefly flex manual",
     vehiclePrice: "60.170",
-    imgSrc: "../assets/img/argo.png",
+    imgSrc: "../img/argo.png",
     vehicleLink: ""
   },
   {
     vehicleName: "Audi Q3",
     vehicleInfo: "1.4 TFSI flex prestige s tronic",
     vehiclePrice: "132.900",
-    imgSrc: "../assets/img/mercedes-benz.png",
+    imgSrc: "../img/mercedes-benz.png",
     vehicleLink: ""
   },
 ]

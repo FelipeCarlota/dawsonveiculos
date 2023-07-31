@@ -1,5 +1,5 @@
 import { Paragraph, TitleSection } from "../Text";
-import ImgApp from '../../assets/img/app-img-breve.png'
+import ImgApp from '../../img/app-img-breve.png'
 import BtnApp from "../Button/BtnApp";
 
 export default function AppSection() {

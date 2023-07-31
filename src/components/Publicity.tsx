@@ -1,5 +1,5 @@
 import { Paragraph, Title } from "./Text";
-import Onix from '../assets/img/onix.png'
+import Onix from '../img/onix.png'
 import ButtonCustom from "./Button";
 
 export default function Publicity() {

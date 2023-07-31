@@ -1,7 +1,7 @@
 import { Card } from '@mui/material'
 import { Paragraph, Title } from '../Text';
 import ButtonCustom from '../Button';
-import Onix from '../../assets/img/onix.png'
+import Onix from '../../img/onix.png'
 
 export interface VeiculoCardProps {
   imgSrc: string;

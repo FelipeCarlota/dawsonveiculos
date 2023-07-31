@@ -1,15 +1,17 @@
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
+    './src/**/*.{html,js}',
+    './src/**/*.{html,js}',
     './src/**/*.tsx',
-    './index.html'
+    './index.html',
   ],
   theme: {
     extend: {
       backgroundImage: {
-        city: "url('./src/assets/img/background-header.jpg')",
-        appSection: "url('./src/assets/img/background-breve-app.png')",
-        testimonySection: "url('./src/assets/img/background-depoimentos.jpg')"
+        city: "url('./public/background-header.jpg')",
+        appSection: "url('./public/background-breve-app.png')",
+        testimonySection: "url('./public/background-depoimentos.jpg')"
       },
 
       backgroundColor: {

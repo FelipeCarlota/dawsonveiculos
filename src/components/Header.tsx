@@ -1,7 +1,7 @@
 import Logo from "./Logo/Logo";
 import Navbar from "./Menu/Navbar/Navbar";
 import { Subtitle, Title } from "./Text";
-import CarroBanner from '../assets/img/img-header.png';
+import CarroBanner from '../img/img-header.png';
 
 export default function Header() {
   return (
