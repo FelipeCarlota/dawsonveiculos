@@ -1,18 +1,16 @@
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
-    './src/**/*.{html,js}',
-    './src/**/*.{html,js}',
-    './src/**/*.tsx',
+    './src/**/*.{html,js,tsx,jpg,png}',
     './index.html',
   ],
   theme: {
     extend: {
-      // backgroundImage: {
-      //   city: "url('./public/background-header.jpg')",
-      //   appSection: "url('./public/background-breve-app.png')",
-      //   testimonySection: "url('./public/background-depoimentos.jpg')"
-      // },
+      backgroundImage: {
+        city: "url('./src/img/background-header.jpg')",
+        appSection: "url('./src/img/background-breve-app.png')",
+        testimonySection: "url('./src/img/background-depoimentos.jpg')"
+      },
 
       backgroundColor: {
         orange: "#ff9000",
