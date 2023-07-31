@@ -17,9 +17,9 @@ export default function BalloonTestimony({
 } : BalloonTestimonyProps) {
   return (
     <div>
-      <div className="relative w-full md:w-[40vw] lg:w-[40vw]">
+      <div className="relative w-full md:w-[40vw] lg:w-[40vw] xl:w-[30vw]">
         <img src={Balloon} alt="Balão de fala para depoimentos sobre os nossos produtos" className={`${transform && "scale-x-[-1]"}`}/>
-        <div className="absolute left-0 top-4 px-6 md:top-8 lg:top-8 md:px-8 lg:px-8">
+        <div className="absolute left-0 top-4 px-6 md:top-8 lg:top-8 md:px-8 lg:px-8 xl:px-">
           <p className="text-white w-full mb-2 md:mb-4 lg:mb-4 text-[1rem] md:text-[1.250rem] lg:text-[1.250rem]">{testimony}</p>
         </div>
         <div className=" absolute bottom-10 md:bottom-14 lg:bottom-14 flex flex-row gap-6 items-center px-6 md:px-8 lg:px-8">

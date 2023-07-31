@@ -8,11 +8,11 @@ export default {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        city: "url('./public/background-header.jpg')",
-        appSection: "url('./public/background-breve-app.png')",
-        testimonySection: "url('./public/background-depoimentos.jpg')"
-      },
+      // backgroundImage: {
+      //   city: "url('./public/background-header.jpg')",
+      //   appSection: "url('./public/background-breve-app.png')",
+      //   testimonySection: "url('./public/background-depoimentos.jpg')"
+      // },
 
       backgroundColor: {
         orange: "#ff9000",

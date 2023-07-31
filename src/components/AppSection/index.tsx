@@ -4,7 +4,7 @@ import BtnApp from "../Button/BtnApp";
 
 export default function AppSection() {
   return (
-    <div className="bg-appSection bg-center bg-cover pt-20">
+    <div className="bg-[url('../../public/background-breve-app.png')] bg-center bg-cover pt-20">
       <TitleSection text="Em breve" emphasis="Na playstore e appstore" emphasisColor="!text-white" className="text-primary leading-8"/>
       <div className="flex lg:flex-row md:flex-row sm:flex-col flex-col p-4 pb-0 pt-16 container mx-auto gap-10">
         <div>

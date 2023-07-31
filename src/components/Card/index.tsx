@@ -26,7 +26,7 @@ export default function VeiculoCard({
   textColorButton,
 } : VeiculoCardProps) {
   return (
-    <div id="card-vehicle" className='w-full md:w-[40vw] lg:w-[40vw] mx-auto justify-center items-center align-middle text-center'>
+    <div id="card-vehicle" className='w-full md:w-[40vw] lg:w-[40vw] xl:w-[20vw] mx-auto justify-center items-center align-middle text-center'>
       <img src={Onix} alt={vehicleInfo} className='w-[16rem] lg:w-[80%] z-50 mx-auto'/>
       <Card className={`flex flex-col gap-4 justify-center items-center mt-[-4.8rem] pt-[4.8rem] w-full h-[50vh] pb-2 px-4 ${bgColor}`}>
         <Title text={vehicleName} className='font-black text-[1.4rem] text-white'/>
