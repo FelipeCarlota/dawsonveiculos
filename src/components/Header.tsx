@@ -5,7 +5,7 @@ import CarroBanner from '../img/img-header.png';
 
 export default function Header() {
   return (
-    <header className="bg-[url('../../public/background-header.jpg')] h-[80vh] pt-10 relative">
+    <header className="bg-[url('./src/img/background-header.jpg')] h-[80vh] pt-10 relative">
       <div className="container mx-auto">
         <div className="flex flex-row justify-center sm:justify-center lg:justify-between items-center flex-wrap w-full">
           <Logo center/>

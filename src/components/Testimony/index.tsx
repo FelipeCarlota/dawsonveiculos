@@ -4,7 +4,7 @@ import { testimonies } from "./testimonies";
 
 export default function Testimony() {
   return (
-    <div className="bg-[url('../../public/background-depoimentos.jpg')] py-10 px-4 md:p-20 lg:p-20">
+    <div className="bg-[url('./src/img/background-depoimentos.jpg')] py-10 px-4 md:p-20 lg:p-20">
       <div className="md:container lg:container mx-auto">
         <div className="mb-10">
           <TitleSection 
