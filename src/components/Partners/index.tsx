@@ -20,7 +20,7 @@ export default function Partners({
               src={Bv}
               alt="Imagem da logo do parceiro" 
               key={item.id}
-              className="w-[20vw] md:w-[16vw] lg:w-[8vw]"
+              className="w-[20vw] md:w-[16vw] lg:w-[8vw] xl:w-[6vw]"
             />
           )
         }

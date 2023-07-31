@@ -5,7 +5,7 @@ import CarroBanner from '../img/img-header.png';
 
 export default function Header() {
   return (
-    <header className="bg-city h-[80vh] pt-10 relative">
+    <header className="h-[80vh] pt-10 relative">
       <div className="container mx-auto">
         <div className="flex flex-row justify-center sm:justify-center lg:justify-between items-center flex-wrap w-full">
           <Logo center/>
@@ -26,7 +26,7 @@ export default function Header() {
           <img 
             src={CarroBanner}
             alt="Imagem de um carro no banner do site" 
-            className="sm:mt-[0.5rem] md:mt-[1.1rem] lg:mt-[-1.8rem] xl:mt-[-0.2rem] mx-auto w-full md:w-[90%] lg:w-[48%]"
+            className="sm:mt-[0.5rem] md:mt-[1.1rem] lg:mt-[-1.8rem] mx-auto w-full md:w-[90%] lg:w-[48%]"
           />
         </div>
       </div>

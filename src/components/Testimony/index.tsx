@@ -4,7 +4,7 @@ import { testimonies } from "./testimonies";
 
 export default function Testimony() {
   return (
-    <div className="bg-testimonySection py-10 px-4 md:p-20 lg:p-20">
+    <div id="testimonies-section" className="py-10 px-4 md:p-20 lg:p-20">
       <div className="md:container lg:container mx-auto">
         <div className="mb-10">
           <TitleSection 
