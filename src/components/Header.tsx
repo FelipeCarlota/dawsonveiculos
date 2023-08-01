@@ -14,11 +14,21 @@ export default function Header() {
         <div className="flex flex-col justify-center text-center sm:leading-6 lg:leading-10 p-10 md:p-15 lg:p-20 lg:mt-[2rem] gap-6">
           <Title 
             text="Bem vindos" 
-            className="text-white font-maximize text-[3rem] lg:text-[4rem] text-center"
+            className="
+              text-white sm:text-red-500 md:text-blue-500 lg:text-orange-400 xl:text-green-400
+              font-maximize
+              text-center
+              text-[2rem] md:text-[3rem] lg:text-[4rem] xl:text-[4rem] 
+            "
           />
           <Subtitle 
             text="A sua melhor concessionária de carros"
-            className="text-[1rem] lg:text-[1.3rem] text-[#ff9000] font-semibold tracking-wider lg:tracking-widest"
+            className="
+              text-[0.8rem] md:text-[1rem] lg:text-[1.3rem]
+              text-[#ff9000]
+              font-semibold 
+              tracking-wider lg:tracking-widest
+            "
           />
         </div>
 
@@ -26,7 +36,7 @@ export default function Header() {
           <img 
             src={CarroBanner}
             alt="Imagem de um carro no banner do site" 
-            className="mt-[0.5rem] sm:mt-[0.5rem] md:mt-[1.1rem] lg:mt-[-1.8rem] mx-auto w-full md:w-[90%] lg:w-[48%]"
+            className="mt-[1.8rem] sm:mt-[0.5rem] md:mt-[1.1rem] lg:mt-[-1.8rem] mx-auto w-full md:w-[90%] lg:w-[48%]"
           />
         </div>
       </div>
