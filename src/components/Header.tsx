@@ -26,7 +26,7 @@ export default function Header() {
           <img 
             src={CarroBanner}
             alt="Imagem de um carro no banner do site" 
-            className="sm:mt-[0.5rem] md:mt-[1.1rem] lg:mt-[-1.8rem] mx-auto w-full md:w-[90%] lg:w-[48%]"
+            className="mt-[0.5rem] sm:mt-[0.5rem] md:mt-[1.1rem] lg:mt-[-1.8rem] mx-auto w-full md:w-[90%] lg:w-[48%]"
           />
         </div>
       </div>

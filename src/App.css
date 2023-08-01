@@ -31,12 +31,18 @@ a:hover {
 
 header {
   background-image: url('../src/img/background-header.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 #app-section {
   background-image: url('../src/img/background-breve-app.png');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 #testimonies-section {
   background-image: url('../src/img/background-depoimentos.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
