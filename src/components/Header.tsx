@@ -7,7 +7,7 @@ export default function Header() {
   return (
     <header
       className="
-        h-[68vh] sm:h-[70vh] md:h-[73vh] lg:h-[83vh] xl:h-[83vh]
+        h-[68vh] max-sm:h-[70vh] max-md:h-[73vh] max-lg:h-[83vh] max-xl:h-[85vh]
         pt-10 
       "
     >
@@ -22,16 +22,16 @@ export default function Header() {
             justify-center 
             text-center 
             sm:leading-6 lg:leading-10 
-            p-10 md:p-15 lg:pt-[4.5rem] lg:pb-[2.5rem] xl:p-10
-            lg:mt-[4rem] 
-            xl:mt-[6rem] 
+            p-10 md:p-15  xl:p-10
+            lg:mt-[2rem] 
+            max-xl:mt-[3rem] 
             gap-2 md:gap-6
           "
         >
           <Title 
             text="Bem vindos" 
             className="
-              text-white sm:text-red-500 md:text-blue-500 lg:text-orange-400 xl:text-green-400
+              text-white max-sm:text-red-500 max-md:text-blue-500 max-lg:text-orange-400 max-xl:text-green-400
               font-maximize
               text-center
               text-[3rem] md:text-[3rem] lg:text-[4rem] xl:text-[4rem] 

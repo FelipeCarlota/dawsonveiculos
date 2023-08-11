@@ -31,6 +31,14 @@ export default {
     extends: {}
   },
 
+  screens: {
+    'c-sm': '640px',
+    'c-md': '768px',
+    'c-lg': '1024px',
+    'c-xl': '1280px',
+    'c-2xl': '1536px'
+  },
+
   plugins: [],
 }
 
