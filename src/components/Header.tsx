@@ -7,7 +7,7 @@ export default function Header() {
   return (
     <header
       className="
-        h-[68vh] max-sm:h-[70vh] max-md:h-[73vh] max-lg:h-[83vh] max-xl:h-[85vh]
+        max-sm:h-[70vh] max-md:h-[73vh] max-lg:h-[83vh] max-xl:h-[85vh] max-2xl:h-[86vh] h-[86vh] 
         pt-10 
       "
     >
@@ -31,7 +31,7 @@ export default function Header() {
           <Title 
             text="Bem vindos" 
             className="
-              text-white max-sm:text-red-500 max-md:text-blue-500 max-lg:text-orange-400 max-xl:text-green-400
+              text-white max-sm:text-red-500 max-md:text-blue-500 max-lg:text-orange-400 max-xl:text-green-400 max-2xl:text-yellow-400
               font-maximize
               text-center
               text-[3rem] md:text-[3rem] lg:text-[4rem] xl:text-[4rem] 
