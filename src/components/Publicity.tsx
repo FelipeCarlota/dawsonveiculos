@@ -8,7 +8,7 @@ export default function Publicity() {
       <div className="">
         <Title
           text="já pensou em ter um carro por assinatura?"
-          className="lg:text-[3.8rem] text-[1.8rem] font-bold leading-[1.675rem] lg:leading-[3.2rem] w-[23.5rem] lg:w-[49rem]"
+          className="max-sm:text-[1.4rem] max-lg:text-[3.8rem] text-[1.8rem] font-bold max-sm:leading-[1.2rem] leading-[1.675rem] lg:leading-[3.2rem] w-[23.5rem] lg:w-[49rem]"
         />
       </div>
 

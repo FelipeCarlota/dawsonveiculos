@@ -7,6 +7,7 @@ export default function Header() {
   return (
     <header
       className="
+        w-full
         max-sm:h-[70vh] max-md:h-[73vh] max-lg:h-[83vh] max-xl:h-[85vh] max-2xl:h-[86vh] h-[86vh] 
         pt-10 
       "
@@ -31,19 +32,21 @@ export default function Header() {
           <Title 
             text="Bem vindos" 
             className="
-              text-white max-sm:text-red-500 max-md:text-blue-500 max-lg:text-orange-400 max-xl:text-green-400 max-2xl:text-yellow-400
+              max-sm:text-red-500 max-md:text-blue-500 max-lg:text-orange-400 max-xl:text-green-400 max-2xl:text-yellow-400
               font-maximize
               text-center
               text-[3rem] md:text-[3rem] lg:text-[4rem] xl:text-[4rem] 
+              whitespace-nowrap
             "
           />
           <Subtitle 
             text="A sua melhor concessionária de carros"
             className="
-              text-[1rem] md:text-[1rem] lg:text-[1.3rem]
+              max-sm:text-[1rem] md:text-[1rem] lg:text-[1.3rem]
               text-[#ff9000]
               font-semibold 
               tracking-wider lg:tracking-widest
+              whitespace-nowrap
             "
           />
         </div>
@@ -58,7 +61,7 @@ export default function Header() {
             alt="Imagem de um carro no banner do site" 
             className="
               mx-auto 
-              h-[16rem] sm:h-[19rem] md:h-[22rem] lg:h-[28rem]
+              h-[16rem] max-sm:h-[14rem] md:h-[22rem] lg:h-[28rem]
               w-auto
             "
           />

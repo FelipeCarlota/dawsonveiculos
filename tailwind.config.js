@@ -26,19 +26,17 @@ export default {
         maximize: ['MaximizeFontCustom', 'sans'],
       }
     },
+    // screens: {
+    //   'csm': '640px',
+    //   'cmd': '768px',
+    //   'clg': '1024px',
+    //   'cxl': '1280px',
+    //   'c2xl': '1536px',
+    // },
   },
   variants: {
     extends: {}
   },
-
-  screens: {
-    'c-sm': '640px',
-    'c-md': '768px',
-    'c-lg': '1024px',
-    'c-xl': '1280px',
-    'c-2xl': '1536px'
-  },
-
   plugins: [],
 }
 
