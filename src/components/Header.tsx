@@ -54,7 +54,7 @@ export default function Header() {
         <div
           className="
             relative
-            max-sm:h-[20vh]
+            max-sm:h-[35vh]
           "
         >
           <img 
@@ -63,11 +63,12 @@ export default function Header() {
             className="
               absolute
               mx-auto 
-              max-sm:mt-[2.5rem]
+              max-sm:mt-[5.5vh]
               w-auto
               max-sm:h-[30vh]
               left-[-50%]
               right-[-50%]
+              bottom-0
             "
           />
         </div>
