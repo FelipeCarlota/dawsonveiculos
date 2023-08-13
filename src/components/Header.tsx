@@ -8,10 +8,20 @@ export default function Header() {
     <header
       className="
         w-full
+        max-sm:h-[90vh]
       "
     >
       <div className="container mx-auto">
-        <div className="flex flex-row justify-center sm:justify-center lg:justify-between items-center flex-wrap w-full">
+        <div 
+          className="
+            w-full
+            pt-10
+            flex flex-row items-center flex-wrap
+            justify-center
+            max-sm:justify-center max-sm:gap-6
+            lg:justify-between
+          "
+        >
           <Logo center/>
           <Navbar />
         </div>
@@ -20,8 +30,8 @@ export default function Header() {
             flex-col
             max-sm:justify-center
             max-sm:text-center
-            max-sm:mt-10
-            max-sm:mb-6
+            max-sm:mt-20
+            max-sm:mb-10
           "
         >
           <Title 
@@ -29,7 +39,7 @@ export default function Header() {
             className="
               max-sm:text-red-500 max-md:text-blue-500 max-lg:text-orange-400 max-xl:text-green-400 max-2xl:text-yellow-400
               font-maximize
-              max-sm:text-[2rem]
+              max-sm:text-[3rem]
             "
           />
           <Subtitle 
@@ -53,9 +63,9 @@ export default function Header() {
             className="
               absolute
               mx-auto 
-              max-sm:mt-[-0.5rem]
+              max-sm:mt-[2.5rem]
               w-auto
-              max-sm:h-[26vh]
+              max-sm:h-[30vh]
               left-[-50%]
               right-[-50%]
             "
