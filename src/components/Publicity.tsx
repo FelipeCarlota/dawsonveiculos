@@ -8,14 +8,14 @@ export default function Publicity() {
       <div className="">
         <Title
           text="já pensou em ter um carro por assinatura?"
-          className="max-sm:text-[1.4rem] max-lg:text-[3.8rem] text-[1.8rem] font-bold max-sm:leading-[1.2rem] leading-[1.675rem] lg:leading-[3.2rem] w-[23.5rem] lg:w-[49rem]"
+          className=""
         />
       </div>
 
       <div className="flex flex-col">
         <Paragraph 
           text="Você escolhe o modelo ideal e fica livre de preocupações com seguro, imposto e manutenção"
-          className="w-[20rem] lg:w-[38rem] md:!text-[1.2rem] lg:!text-[2.2rem] md:!leading-[1.1rem] lg:!leading-[1.8rem] pt-10 lg:pt-20 font-semibold"
+          className=""
         />
 
         <div className="mt-10 lg:mt-20">

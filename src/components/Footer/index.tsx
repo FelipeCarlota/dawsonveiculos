@@ -51,7 +51,7 @@ export default function Footer() {
                 <img src={Phone} alt='Icone do telefone do contato'/>
                 <p>(11) 3762-7040</p>
               </div>
-              <div className='flex flex-row gap-3 items-center'>
+              <div className='flex flex-row flex-wrap gap-3 items-center'>
                 <img src={Email} alt='Icone do email do contato'/>
                 <p>contato@dawsonveiculos.com.br</p>
               </div>
